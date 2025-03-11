@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/robot/yolov8_ros/install/setup.sh

@@ -1,0 +1,2 @@
+commucation_yolo
+-DCATKIN_DEVEL_PREFIX=/home/robot/yolov8_ros/devel -DCMAKE_INSTALL_PREFIX=/home/robot/yolov8_ros/install -G Unix Makefiles

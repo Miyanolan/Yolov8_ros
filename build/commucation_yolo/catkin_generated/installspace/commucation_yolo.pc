@@ -1,0 +1,8 @@
+prefix=/home/robot/yolov8_ros/install
+
+Name: commucation_yolo
+Description: Description of commucation_yolo
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: roscpp rospy std_msgs message_runtime

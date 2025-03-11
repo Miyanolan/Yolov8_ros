@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<launch>
+
+  <!-- Load Parameter -->
+  
+  <param name="use_cpu"           value="false" />
+
+  <!-- Start yolov8 and ros wrapper -->
+  <node pkg="commucation_yolo" type="yolo_pub_mask.py" name="yolov8_ros" output="screen" >
+    <param name="weight_path"       value="$(find commucation_yolo)/weights/yolov8n-seg.pt"/>
+    <param name="image_topic"       value="/usb_cam/image_raw" />
+    <param name="bounding_boxes_topic"         value="/yolov8/BoundingBoxes" />
+    <param name="mask_topic"         value="/yolov8/mask" />
+    <param name="camera_frame"       value="camera_color_frame"/>
+    <param name="visualize"       value="true"/>
+    <param name="conf"              value="0.3" />
+  </node>
+
+</launch>
