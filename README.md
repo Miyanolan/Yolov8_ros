@@ -110,8 +110,8 @@ The `yolov8_mask.sh` script performs the following actions:
 To visualize the mask and bounding box topics in ROS, you can use the following commands:
 
 ```bash
-rostopic echo /mask
-rostopic echo /bbox
+rostopic echo /yolov8/mask
+rostopic echo /yolov8/BoundingBoxes
 ```
 
 These commands will display the published data in the terminal.
