@@ -1,7 +1,3 @@
-好的，感谢你的澄清。根据你提到的修改要求，下面是一个更新的 `README.md`，其中包含了关于你的 `yolov8_mask.sh` 脚本以及你提到的两个输出话题（`mask` 和 `bbox`）的详细信息。
-
----
-
 # YOLOv8 ROS Integration
 
 This repository integrates **YOLOv8** with **ROS** for object detection. It captures image frames using a camera, runs object detection using YOLOv8, and publishes the results (masks and bounding boxes) as ROS topics.
